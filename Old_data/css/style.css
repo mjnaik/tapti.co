@@ -5,23 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-.active-link{
-  color:#EE4347!important;
-}
-
-.footer-button{
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    padding: 10px 55px;
-    background-color: #ff4646;
-    color: #ffffff;
-    border-radius: 0;
-    border: 1px solid #ff4646;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    margin-top: 15px;
-}
 .layout_padding {
   padding: 90px 0;
 }
