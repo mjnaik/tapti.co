@@ -5,6 +5,23 @@ body {
   overflow-x: hidden;
 }
 
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  padding-right: 25px!important;
+  padding-left: 25px!important;
+  background-color: #000000;
+  z-index: 9999999999999999;
+}
+
+.visible-title {
+  visibility: visible;
+  
+}
+
 .active-link{
   color:#EE4347!important;
 }

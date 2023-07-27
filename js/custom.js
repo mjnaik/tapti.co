@@ -1,3 +1,20 @@
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 300) {
+        $('nav').addClass('fixed-header');
+        $('nav div').addClass('visible-title');
+    }
+    else {
+        $('nav').removeClass('fixed-header');
+        $('nav div').removeClass('visible-title');
+    }
+});
+
+
+
+
+
+
+
 // to get current year
 function getYear() {
     var currentDate = new Date();
@@ -44,3 +61,8 @@ $('.team_carousel').owlCarousel({
         }
     }
 })
+
+
+
+
+
