@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 300) {
+    if ($(window).scrollTop() >= 0.5) {
         $('nav').addClass('fixed-header');
         $('nav div').addClass('visible-title');
     }
