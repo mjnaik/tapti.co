@@ -59,12 +59,13 @@ p {
     display: inline-block;
     padding: 10px 55px;
     background-color: #4D88A0;
-    color: #ffffff;
+    color: #f5d351;
     border-radius: 0;
     border: 1px solid #4D88A0;
     -webkit-transition: all .3s;
     transition: all .3s;
     margin-top: 15px;
+    font-weight: 500;
 }
 .layout_padding {
   padding: 50px 0;
