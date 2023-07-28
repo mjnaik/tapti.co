@@ -1130,3 +1130,12 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+@media only screen and (max-width: 680px) {
+  .footer-button {
+    width: 230px;
+    text-align: center;
+}
+}
