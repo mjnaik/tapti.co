@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+ul{
+  color: #999;
+}
+
 p {
   color: #999;
 }
@@ -403,11 +407,12 @@ a:focus {
   border: 1px solid #4D88A0;
   -webkit-transition: all .3s;
   transition: all .3s;
+  font-weight: 500;
 }
 
 .slider_section .detail-box .btn-2:hover {
-  background-color: transparent;
-  color: #F5D351;
+  background-color: #4D88A0;
+  color: #ffffff;
 }
 
 .slider_section .img-box img {
@@ -473,11 +478,12 @@ a:focus {
   -webkit-transition: all .3s;
   transition: all .3s;
   margin-top: 15px;
+  font-weight: 500;
 }
 
 .about_section .detail-box a:hover {
-  background-color: transparent;
-  color: #F5D351;
+  background-color: #4d88a0;
+  color: #ffffff;
 }
 
 .service_section {
@@ -535,6 +541,7 @@ a:focus {
 .service_section .box .detail-box h4 {
   font-weight: bold;
   font-size: 22px;
+  color: #4D88A0;
 }
 
 .service_section .box .detail-box a {
