@@ -54,18 +54,20 @@ p {
 }
 
 .footer-button{
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    padding: 10px 55px;
-    background-color: #4D88A0;
-    color: #f5d351;
-    border-radius: 0;
-    border: 1px solid #4D88A0;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    margin-top: 15px;
-    font-weight: 500;
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #4d88a0;
+  color: #F5D351;
+  border-radius: 5px;
+  border: 1px solid #4d88a0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-top: 15px;
+  font-weight: 500;
+}
+.footer-button:hover{
+  color:#fff;
+
 }
 .layout_padding {
   padding: 50px 0;
