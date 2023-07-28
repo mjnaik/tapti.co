@@ -1146,4 +1146,17 @@ a:focus {
 .whatsapp-top-logo{
   padding-left:0px;
 }
+.quote_btn-container {
+  float: right;
+  padding-right: 26px;
+}
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+  text-align: right; 
+}
+.slider_section {
+  padding: 110px 0 90px 0!important;
+}
+.header_section .container-fluid {
+  border-bottom: 1px solid #5a88a1;
+}
 }
