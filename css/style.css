@@ -189,7 +189,8 @@ a:focus {
   padding-right: 25px;
   padding-left: 25px;
   background-color: #fff;
-  
+  position: absolute;
+  z-index: 99999;
 }
 .header_section{
   /* border-bottom: 1px solid red; */
@@ -321,12 +322,14 @@ a:focus {
 
 .quote_btn-container a {
   color: #4D88A0;
+  font-size: 18px;
+  font-weight: 500;
   /* text-transform: uppercase; */
 }
 
 .quote_btn-container a span {
   margin-left: 5px;
-  font-size: 14px;
+  
 }
 
 /*end header section*/
@@ -1132,10 +1135,15 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 
-
+.whatsapp-top-logo{
+  padding-left:20px;
+}
 @media only screen and (max-width: 680px) {
   .footer-button {
     width: 230px;
     text-align: center;
+}
+.whatsapp-top-logo{
+  padding-left:0px;
 }
 }
