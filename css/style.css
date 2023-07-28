@@ -5,6 +5,9 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  color: #999;
+}
 
 .fixed-header {
   position: fixed;
@@ -971,7 +974,8 @@ a:focus {
 
 .info_section .info_contact .contact_link_box a {
   margin: 5px 0;
-  color: #000;
+  color: #999;
+  font-weight: 500;
 }
 
 .info_section .info_contact .contact_link_box a i {
@@ -1033,7 +1037,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 15px;
-  color: #000000;
+  color: #999;
 }
 .fa{
   color:#000!important;
@@ -1045,6 +1049,7 @@ a:focus {
 
 .info_section .info_links a.active {
   color: #4D88A0;
+  font-weight: 500;
 }
 
 .info_section .info_links a:hover{
@@ -1100,13 +1105,13 @@ a:focus {
 /* footer section*/
 .footer_section {
   position: relative;
-  background-color: #020230;
+  background-color: #4d88a0;
   text-align: center;
 }
 
 .footer_section p {
-  color: #ffffff;
-  padding: 20px 0;
+  color: #F5D351;
+  padding: 10px 0;
   margin: 0;
   border-top: 1px solid #ffffff;
 }
