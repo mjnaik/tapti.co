@@ -70,7 +70,7 @@ p {
 
 }
 .layout_padding {
-  padding: 50px 0;
+  padding: 120px 0;
 }
 
 .layout_padding2 {
@@ -327,6 +327,10 @@ a:focus {
 .quote_btn-container a span {
   margin-left: 5px;
   
+}
+.header-email-span{
+  padding-right:25px;
+  padding-left: 19px;
 }
 
 /*end header section*/
@@ -1158,5 +1162,9 @@ a:focus {
 }
 .layout_padding {
   padding: 110px 0;
+}
+.header-email-span{
+  padding-right:unset;
+  padding-left: unset;
 }
 }
