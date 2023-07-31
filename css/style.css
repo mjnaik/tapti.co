@@ -1133,6 +1133,10 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+.our-capablity-button{
+  text-align: center;
+  padding-top: 35px;
+}
 
 .about_section .container .row .col-md-6 .info_contact .contact_link_box {
 padding-right: 40px;
@@ -1170,5 +1174,9 @@ padding-right: 40px;
 .header-email-span{
   padding-right:unset;
   padding-left: unset;
+}
+.our-capablity-button{
+  text-align: left;
+  padding-top: 35px;
 }
 }
