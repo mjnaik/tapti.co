@@ -87,21 +87,19 @@
               <li class="nav-item active-link">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:info@tapti.co?subject=Inquiry from website tapti.co&body=How can we help you?" target="_blank" style="text-transform: lowercase;">
+                  <i class="fa fa-envelope" aria-hidden="true" style="padding-right:3px;color: #5A88A1!important;"></i>
+                  info@tapti.co</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="text-transform: none;" target="_blank">
+                  <img src="images/whatsappicon.png" style="width: 25px;padding-right:0px">
+                  WhatsApp
+                </a>
+              </li>
             </ul>
-            <div class="quote_btn-container">
-              <span class="header-email-span">
-              <i class="fa fa-envelope" aria-hidden="true" style="padding-right: 4px;font-size: 20px;color: #5A88A1!important;"></i>
-              <a href="mailto:info@tapti.co?subject=Inquiry from website tapti.co&body=How can we help you?" target="_blank">
-                  info@tapti.co
-              </span>
-              </a>
-              <span>
-              <a href="https://wa.me/12622715675" target="_blank" class="whatsapp-top-logo">
-                  <img src="images/whatsappicon.png" style="width: 25px;">  
-              </a>
-              <a href="https://wa.me/12622715675" style="font-size: 17px!important;font-weight: 500;" target="_blank">WhatsApp</a>
-              </span>
-            </div>
+            
           </div>
         </nav>
       </div>
@@ -113,7 +111,7 @@
 
   <!-- Simple Two Section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section layout_padding" style="padding-bottom: 0px;">
     <div class="container  ">
       <div class="row">
         <div class="col-md-6">
@@ -122,7 +120,7 @@
               Contact
             </h4>
             <div class="contact_link_box">
-              <i class="fa fa-envelope" aria-hidden="true" style="padding-right: 4px;font-size: 23px;color: #5A88A1!important;"></i>
+              <i class="fa fa-envelope" aria-hidden="true" style="padding-right: 10px;font-size: 23px;color: #5A88A1!important;"></i>
               <a href="mailto:info@tapti.co?subject=Inquiry from website tapti.co&amp;body=How can we help you?" target="_blank">
                 
                 <span style="font-size: 22px;color:#999">
@@ -132,7 +130,7 @@
               <br>
               <a href="https://wa.me/12622715675" target="_blank">
                 
-                  <img src="images/whatsappicon.png" style="width: 25px;"><label style="padding-left: 5px;font-size: 22px;color:#999">WhatsApp</label>
+                  <img src="images/whatsappicon.png" style="width: 25px;"><label style="padding-left: 12px;font-size: 22px;color:#999">WhatsApp</label>
                 
               </a>
               <!-- <a href="https://wa.me/12622715675" style="font-size: 17px!important;font-weight: 500;">WhatsApp</a> -->
@@ -186,17 +184,39 @@
 
 
   <!-- contact section -->
-  <section class="contact_section layout_padding" hidden>
+  <section class="contact_section layout_padding" style="padding-top: 0px;">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Get In Touch
+          Locations
         </h2>
+        <div class="contact_link_box">
+          
+          <br>
+          <i class="fa fa-location-arrow" aria-hidden="true" style="padding-right: 10px;font-size: 23px;color: #5A88A1!important;"></i>
+          <a target="_blank">
+            
+            <span style="font-size: 22px;color:#999">
+              Surat, India
+            </span>
+          </a>
+          <br>
+          <i class="fa fa-location-arrow" aria-hidden="true" style="padding-right: 10px;font-size: 23px;color: #5A88A1!important;"></i>
+          <a target="_blank">
+            
+            <span style="font-size: 22px;color:#999">
+              Los Alamitos, CA, USA
+            </span>
+          </a>
+          <br>
+          
+        </div>
       </div>
       <div class="row">
         <div class="col-md-8 col-lg-6 mx-auto">
           <div class="form_container">
-            <form method="post" action="form_mail.php" onsubmit="return validateForm()" name="contactForm">
+            
+            <form method="post" action="form_mail.php" onsubmit="return validateForm()" name="contactForm" hidden>
               <div>
                 <input type="text" placeholder="Your Name" name="yourname" />
                 <label hidden name="for_name">Name Should Not Blank</label>

@@ -1133,6 +1133,10 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+.about_section .container .row .col-md-6 .info_contact .contact_link_box {
+padding-right: 40px;
+}
 /*# sourceMappingURL=style.css.map */
 
 
